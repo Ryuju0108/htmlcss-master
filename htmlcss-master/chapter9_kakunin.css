@@ -1,0 +1,24 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #6c6b6b;
+}
+a {
+	text-decoration: none;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.position {
+	position: absolute;
+	/*初期は紙全体を想定*/
+	right: 40px;
+	top: 100px;
+}
+.fab fa-facebook, .fab fa-twitter {
+	font-size: 32px;
+}

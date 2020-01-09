@@ -1,0 +1,51 @@
+.box1{
+	width: 300px;
+	height: 400px;
+	background-color: green;
+
+
+        border: solid black;        
+        /* まずborderの種類と色を指定 */
+    border-top-width: 5px;      
+    /* 上側に40pxのmarginを指定 */            
+    border-right-width: 5px;
+    /* 右側に40pxのmarginを指定 */
+    border-bottom-width: 5px;
+     /* 下側に40pxのmarginを指定 */
+    border-right-width: 5px;
+     /* 左側に40pxのmarginを指定 */
+     padding: 30px
+}
+.box2{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	/* 指定方法（box2の周囲すべてに枠線を設定する場合） */
+	border: 5px solid yellow;
+
+}
+.box3{
+	width: 300px;
+	height: 200px;
+	background-color: blue;
+
+	padding : 1px ;
+	     /* 値1つは、上下左右 */   
+    padding: 1px 2px;  
+    /* 値2つは、上下 左右 */ 
+    padding: 1px 2px 3px ;  
+    /* 値3つは、上 左右 下 */   
+    padding: 1px 2px 3px 4px ;  
+    /* 値4つは、上 右 下 左 （時計まわり）*/ 
+}
+.box4{
+	width: 130px;
+	height: 120px;
+	background-color: green;
+	margin-right: 20px;  
+	/* 右側に40pxのmarginを指定 */　　　　
+	margin-bottom: 10px; 
+	/* 下側に40pxのmarginを指定 */　　　
+	margin-left: 30px;   
+	/* 左側に40pxのmarginを指定 */　　　
+}

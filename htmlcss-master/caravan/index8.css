@@ -1,0 +1,183 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #6c6b6b;
+}
+a {
+	text-decoration: none;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header {
+	width: 90%;
+	padding: 15px 0;
+	margin : 0 auto;
+	margin: 15px 0; 
+	text-align: center;
+}
+header .headline{
+	font-size: 32px;
+}
+.nav-list {
+	text-align: center;
+	padding: 10px, 0;
+	margin: 0 auto;
+}
+.nav-list-item {
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+}
+.main-visual {
+	width: 100%;
+	height: 300px;
+	background-image: url(img/mv.jpg);
+	background-size: cover;
+	background-position: center;
+	/* 縦横比を維持したまま背景領域を埋め尽くす */
+}
+.main-visual-content {
+	width: 40%;
+	height: 300px;
+	background-color: rgba(0, 0, 0, 0.5);
+	/* 背景色を半透明の黒にする */
+	text-align: center;
+	padding-top: 105px;
+	/* 上側の内側余白で垂直方向の位置を調整 */
+}
+.main-visual-text{
+	color: #fff;
+}
+.main-visual-name{
+	margin-top: 30px;
+	color: #fff;
+}
+main {
+	width: 800px;
+	margin:  0 auto;
+	padding: 70px 0;
+}
+.blog {
+  width: 540px;
+  /*height: 1400px;*/
+  float: left;
+  margin-right: 30px;
+}
+.blog-headline {
+	border-bottom: 8px solid #f7f7f7;
+	text-align: center;
+	line-height: 0.6; 
+	/* h2のフォントサイズが10pxの場合、行の高さは0.6倍（6px）になる */
+}
+.blog-item{
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #f7f7f7;
+}
+.blog-box {
+	padding-top: 50px;
+}
+.blog-image {
+	height: 180px;
+	float: left;
+}
+.blog-text {
+	padding: 30px 0 0 25px;
+	float: left;
+}
+.blog-text-headline {
+	padding-bottom: 15px;
+}
+.blog-data {
+	display: inline-block;
+	font-size: 12px;
+}
+.pagination {
+	text-align: center;
+	padding-top: 50px;
+}
+.number {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	color: white;
+	background-color: #acabab;
+	margin: 0 5px 0 5px;
+	line-height: 30px;
+	border-radius: 3px;
+}
+.category {
+	display: inline-block;
+	padding: 5px 8px;
+	background-color: #acabab;
+	border-radius: 3px;
+	/*領域の四辺の角を丸くしたいときに使うプロパティ*/
+	color: #fff;
+	font-size: 11px;
+}
+.sidebar {
+  width: 230px;
+  /*height: 1400px;*/
+  float: left;
+}
+.sidebar-headline, .instagram-headline, .categories-headline {
+	border-bottom: 8px solid #f7f7f7;
+	text-align: center;
+	line-height: 0.6;
+}
+.sidebar-contents {
+	padding : 50px 0;
+}
+.popular-text, .categories-text {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #f7f7f7;
+	margin-bottom: 5px;
+}
+.popular-text:last-child, .categories-text:last-child {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+.instagram-box {
+	float: left;
+	width: 110px;
+	padding-top: 110px;
+	background-size: cover;
+	background-position: center;
+}
+.instagram-box:nth-child(odd) {
+	margin: 0 10px 10px 0 ;
+}
+/*奇数：英語でodd, 偶数：英語でeven*/
+.instagram-box:nth-child(1) {
+	background-image: url(img/airport.jpg);
+}
+.instagram-box:nth-child(2) {
+	background-image: url(img/japan.jpg);
+}.instagram-box:nth-child(3) {
+	background-image: url(img/snow.jpg);
+}.instagram-box:nth-child(4) {
+	background-image: url(img/japan2.jpg);
+}
+.instagram-box:nth-child(5) {
+	background-image: url(img/lake.jpg);
+}
+.instagram-box:nth-child(6) {
+	background-image: url(img/road.jpg);
+}
+footer {
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  padding: 50px 0;
+  background-color: #848282;
+}
+footer .footer-text {
+	color: white;
+}

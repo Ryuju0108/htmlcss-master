@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #6c6b6b;
+}
+a {
+	text-decoration: none;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+header {
+	width: 100%;
+	height: 400px;
+	margin-bottom: 20px;
+	background-image: url(img7/mv.jpg);
+	background-position: bottom;
+	background-color: rgba(0, 0, 0, 0.5)
+}
+.headline-text {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 20px 0px 0px 20px;
+}
+.content{
+	width: 840px;
+	margin: 0 auto;
+} 
+
+.title1{
+	width: 180px;
+	height:37px;
+	margin-top: 50px;
+	margin-bottom: 5px;
+	background-image: url(img7/wc-logo.png);
+}
+.box1 {
+	width: 840px;
+	height: 93px;
+	margin-bottom: 30px;
+	/*margin: 0 auto;*/
+	border-bottom: 1px solid gray;
+	text-align: left;
+}
+.text1{
+	text-align: left;
+	font-weight: bolder;
+}
+.title2{
+	width: 180px;
+	height:37px;
+	margin-top: 30px;
+	margin-bottom: 5px;
+	background-image: url(img7/wcp-logo.png);
+}
+.box2 {
+	width: 840px;
+	height: 93px;
+	border-bottom: 1px solid gray;
+	margin-bottom: 30px;
+	margin: 0 auto;
+	text-align: left;
+}
+.text2{
+	text-align: left;
+	font-weight: bolder;
+}
+.title3{
+	width: 180px;
+	height:10px;
+	margin-top: 30px;
+	margin-bottom: 5px;
+	background-image: url(img7/wcw-logo.png);
+}
+.box3 {
+	width: 840px;
+	height: 93px;
+	border-bottom: 1px solid gray;
+	margin-bottom: 30px;
+	margin: 0 auto;
+	text-align: left;
+}
+.text3{
+	text-align: left;
+	font-weight: bolder;
+}
+.title4{
+	width: 180px;
+	height:10px;
+	margin-top: 30px;
+	margin-bottom: 5px;
+	background-image: url(img7/wcc-logo.png);
+}
+.box4 {
+	width: 840px;
+	height: 93px;
+	border-bottom: 1px solid gray;
+	margin-bottom: 50px;
+	margin: 0 auto;
+	text-align: left;
+}
+.text4{
+	text-align: left;
+	font-weight: bolder;
+}
